@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0px;
+  height: 100vh;
+}
+
+/* Grid allgemein */
+.grid {
+  font-family: "Karla";
+  background-color: hsl(204, 43%, 93%);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 0;
+}
+
+.price {
+  padding: 150px 290px;
+}
+
+.unified-styling {
+  padding: 5% 8% 0;
+  text-align: left;
+  font-size: 16px;
+}
+
+/* Grid 1*/
+.grid-1 {
+  grid-column: 1/4;
+  grid-row: 1/2;
+  background-color: white;
+  border-radius: 15px 15px 0 0;
+}
+
+.grid-1 h2 {
+  color: hsl(179, 62%, 43%);
+  margin-bottom: 18px;
+}
+
+.grid-1 h3 {
+  color: hsl(71, 73%, 54%);
+  margin-bottom: 10px;
+}
+
+.grid-1 p {
+  color: hsl(218, 22%, 65%);
+  line-height: 1.4;
+}
+
+/* Grid 2*/
+.bottom-styling {
+  color: hsl(204, 43%, 93%);
+  padding: 4% 3% 5% 15%;
+}
+
+.bottom-styling h3 {
+  margin-bottom: 15px;
+  color: white;
+}
+
+.grid-2 {
+  background-color: hsl(179, 62%, 43%);
+  border-radius: 0 0 0 15px;
+}
+
+.dollar {
+  font-size: 1.9rem;
+  font-weight: 600;
+  color: white;
+  margin-right: 5px;
+  margin-bottom: 12px;
+}
+
+.dollar-text {
+  color: hsl(204, 43%, 83%);
+}
+
+.grid-2-text {
+  color: white;
+  margin: 12px 0 20px;
+}
+
+.button {
+  background: #c0df34;
+  border-radius: 11px;
+  padding: 15px 45px 30px;
+  color: #ffffff;
+  width: 150px;
+  height: 6px;
+  display: block;
+  font: normal bold 18px/1 "Karla";
+  text-align: center;
+  align-items: center;
+}
+
+/* Grid 3*/
+.grid-3 {
+  background-color: hsl(179, 47%, 52%);
+  border-radius: 0 0 15px 0;
+}
+
+.grid-3 {
+  line-height: 1.30;
+}
